@@ -38,4 +38,5 @@ class TestbinSubstring{
         int result = t.countBinarySubstrings("00110011");
         System.out.println(result);
     }
+    
 }

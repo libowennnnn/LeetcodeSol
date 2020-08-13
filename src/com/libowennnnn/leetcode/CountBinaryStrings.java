@@ -1,7 +1,8 @@
 package com.libowennnnn.leetcode;
 
-public class binSubstring {
-    public int countBinarySubstrings(String s) {
+//696
+public class countBinaryStrings {
+    public int countBinSubstrings(String s) {
         int count = 0;
         for(int i = 0; i < s.length(); i++){
             if(isReverse(s, i)) count++;
@@ -31,12 +32,4 @@ public class binSubstring {
         return false;
     }
 }
-
-class TestbinSubstring{
-    public static void main(String[] args){
-        binSubstring t = new binSubstring();
-        int result = t.countBinarySubstrings("00110011");
-        System.out.println(result);
-    }
     
-}

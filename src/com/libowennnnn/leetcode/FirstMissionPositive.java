@@ -1,6 +1,7 @@
 package com.libowennnnn.leetcode;
 
-public class FirstMissionInteger {
+//41
+public class FirstMissionPositive {
     public int firstMissingPositive(int[] nums) {
         for(int i = 0; i < nums.length; i++){
             if(nums[i] < 1 || nums[i] > nums.length){
@@ -21,10 +22,3 @@ public class FirstMissionInteger {
     }
 }
 
-class TestFMI{
-    public static void main(String[] args){
-        FirstMissionInteger fmi = new FirstMissionInteger();
-        int[] nums = new int[]{1,1};
-        System.out.println(fmi.firstMissingPositive(nums));
-    }
-}

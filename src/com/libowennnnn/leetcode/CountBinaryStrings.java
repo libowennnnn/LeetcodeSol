@@ -1,7 +1,7 @@
 package com.libowennnnn.leetcode;
 
 //696
-public class countBinaryStrings {
+public class CountBinaryStrings {
     public int countBinSubstrings(String s) {
         int count = 0;
         for(int i = 0; i < s.length(); i++){
